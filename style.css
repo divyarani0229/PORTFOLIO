@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    background: lavender;
+}
+
+h1,h2,h3 {
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.topbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+#desc {
+    font-size: 40px;
+    font-weight: 500;
+    color: darkmagenta;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.link ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.link a:hover {
+    color: darkmagenta;
+}
+
+#home {
+    height: 400px;
+    background-color: black;
+    color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home h2 {
+    font-weight: 250;
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+}
+
+#bio h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#bio img {
+    width: 250px;
+    height: 250px;
+    margin: 100px;
+}
+
+#bio article {
+    margin: 10px;
+}
+
+#bio article p {
+    padding: 20px 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.button {
+    padding: 10px;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: center;
+    background: darkmagenta;
+    color: snow;
+    border-color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.para{
+    font-size: 25px;
+}
+
+#folio {
+    background: url(./ASSETS/bg.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 0;
+    padding: auto;
+}
+
+#folio hr {
+    width: 700px;
+    margin: 30px auto;
+}
+
+#folio div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+#folio div article {
+    height: 250px;
+    width: 250px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+}
+
+#folio div article p,h3,img {
+    text-align: center;
+    padding: 20px 5px 0 5px;
+    margin: auto;
+    border-color: black;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+#skill h2 {
+    text-align: center;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-around;
+}
+
+#skill ul {
+    list-style: none;
+    font-size: 25px;
+}
+
+#skill ul li {
+    margin: 10px 0;
+}
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+::-webkit-progress-value {
+    background-color: darkmagenta;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: auto;
+}
+
+.ip {
+    line-height: 30px;
+    width: 400px;
+    border-radius: 3px;
+    border-color: black;
+}
